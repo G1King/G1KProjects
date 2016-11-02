@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  G1KHomeViewController.h
 //  G1KProject
 //
 //  Created by Sobf Leo on 16/11/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface G1KHomeViewController : UIViewController
 
 @end
-

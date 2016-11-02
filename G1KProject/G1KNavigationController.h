@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  G1KNavigationController.h
 //  G1KProject
 //
 //  Created by Sobf Leo on 16/11/2.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface G1KNavigationController : UINavigationController
 
 @end
-

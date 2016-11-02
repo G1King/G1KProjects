@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		ECFF0EEA1DC9864200A976AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0EE91DC9864200A976AE /* main.m */; };
-		ECFF0EED1DC9864200A976AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0EEC1DC9864200A976AE /* AppDelegate.m */; };
-		ECFF0EF01DC9864200A976AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0EEF1DC9864200A976AE /* ViewController.m */; };
 		ECFF0EF31DC9864200A976AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFF0EF11DC9864200A976AE /* Main.storyboard */; };
 		ECFF0EF51DC9864200A976AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFF0EF41DC9864200A976AE /* Assets.xcassets */; };
 		ECFF0EF81DC9864200A976AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFF0EF61DC9864200A976AE /* LaunchScreen.storyboard */; };
 		ECFF0F031DC9864200A976AE /* G1KProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F021DC9864200A976AE /* G1KProjectTests.m */; };
 		ECFF0F0E1DC9864200A976AE /* G1KProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F0D1DC9864200A976AE /* G1KProjectUITests.m */; };
+		ECFF0F1E1DC986A500A976AE /* G1KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F1D1DC986A500A976AE /* G1KAppDelegate.m */; };
+		ECFF0F281DC987F300A976AE /* G1KTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F271DC987F300A976AE /* G1KTabBarView.m */; };
+		ECFF0F2B1DC98C9600A976AE /* G1KTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F2A1DC98C9600A976AE /* G1KTabButton.m */; };
+		ECFF0F301DC99A5C00A976AE /* G1KTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F2F1DC99A5C00A976AE /* G1KTabBarController.m */; };
+		ECFF0F331DC9AA7200A976AE /* G1KHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F321DC9AA7200A976AE /* G1KHomeViewController.m */; };
+		ECFF0F361DC9AA7E00A976AE /* G1KDicoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F351DC9AA7E00A976AE /* G1KDicoverViewController.m */; };
+		ECFF0F391DC9AA8900A976AE /* G1KMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F381DC9AA8900A976AE /* G1KMyViewController.m */; };
+		ECFF0F3C1DC9AA9100A976AE /* G1KThemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F3B1DC9AA9100A976AE /* G1KThemViewController.m */; };
+		ECFF0F3F1DC9AE1000A976AE /* G1KNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F3E1DC9AE1000A976AE /* G1KNavigationController.m */; };
+		ECFF0F431DC9C53E00A976AE /* G1KTopTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F421DC9C53E00A976AE /* G1KTopTabView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +45,6 @@
 /* Begin PBXFileReference section */
 		ECFF0EE51DC9864200A976AE /* G1KProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G1KProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFF0EE91DC9864200A976AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECFF0EEB1DC9864200A976AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ECFF0EEC1DC9864200A976AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECFF0EEE1DC9864200A976AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECFF0EEF1DC9864200A976AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ECFF0EF21DC9864200A976AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECFF0EF41DC9864200A976AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFF0EF71DC9864200A976AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,27 @@
 		ECFF0F091DC9864200A976AE /* G1KProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G1KProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFF0F0D1DC9864200A976AE /* G1KProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G1KProjectUITests.m; sourceTree = "<group>"; };
 		ECFF0F0F1DC9864200A976AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFF0F1C1DC986A500A976AE /* G1KAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KAppDelegate.h; sourceTree = "<group>"; };
+		ECFF0F1D1DC986A500A976AE /* G1KAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KAppDelegate.m; sourceTree = "<group>"; };
+		ECFF0F261DC987F300A976AE /* G1KTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTabBarView.h; sourceTree = "<group>"; };
+		ECFF0F271DC987F300A976AE /* G1KTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTabBarView.m; sourceTree = "<group>"; };
+		ECFF0F291DC98C9500A976AE /* G1KTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTabButton.h; sourceTree = "<group>"; };
+		ECFF0F2A1DC98C9600A976AE /* G1KTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTabButton.m; sourceTree = "<group>"; };
+		ECFF0F2D1DC990BC00A976AE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ECFF0F2E1DC99A5C00A976AE /* G1KTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTabBarController.h; sourceTree = "<group>"; };
+		ECFF0F2F1DC99A5C00A976AE /* G1KTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTabBarController.m; sourceTree = "<group>"; };
+		ECFF0F311DC9AA7200A976AE /* G1KHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KHomeViewController.h; sourceTree = "<group>"; };
+		ECFF0F321DC9AA7200A976AE /* G1KHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KHomeViewController.m; sourceTree = "<group>"; };
+		ECFF0F341DC9AA7E00A976AE /* G1KDicoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KDicoverViewController.h; sourceTree = "<group>"; };
+		ECFF0F351DC9AA7E00A976AE /* G1KDicoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KDicoverViewController.m; sourceTree = "<group>"; };
+		ECFF0F371DC9AA8900A976AE /* G1KMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KMyViewController.h; sourceTree = "<group>"; };
+		ECFF0F381DC9AA8900A976AE /* G1KMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KMyViewController.m; sourceTree = "<group>"; };
+		ECFF0F3A1DC9AA9100A976AE /* G1KThemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KThemViewController.h; sourceTree = "<group>"; };
+		ECFF0F3B1DC9AA9100A976AE /* G1KThemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KThemViewController.m; sourceTree = "<group>"; };
+		ECFF0F3D1DC9AE1000A976AE /* G1KNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KNavigationController.h; sourceTree = "<group>"; };
+		ECFF0F3E1DC9AE1000A976AE /* G1KNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KNavigationController.m; sourceTree = "<group>"; };
+		ECFF0F411DC9C53E00A976AE /* G1KTopTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTopTabView.h; sourceTree = "<group>"; };
+		ECFF0F421DC9C53E00A976AE /* G1KTopTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTopTabView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +126,11 @@
 		ECFF0EE71DC9864200A976AE /* G1KProject */ = {
 			isa = PBXGroup;
 			children = (
-				ECFF0EEB1DC9864200A976AE /* AppDelegate.h */,
-				ECFF0EEC1DC9864200A976AE /* AppDelegate.m */,
-				ECFF0EEE1DC9864200A976AE /* ViewController.h */,
-				ECFF0EEF1DC9864200A976AE /* ViewController.m */,
-				ECFF0EF11DC9864200A976AE /* Main.storyboard */,
-				ECFF0EF41DC9864200A976AE /* Assets.xcassets */,
-				ECFF0EF61DC9864200A976AE /* LaunchScreen.storyboard */,
-				ECFF0EF91DC9864200A976AE /* Info.plist */,
+				ECFF0F211DC9871900A976AE /* Custom */,
+				ECFF0F1F1DC986E200A976AE /* BaseClass */,
+				ECFF0F1B1DC9866A00A976AE /* AppDelegate */,
 				ECFF0EE81DC9864200A976AE /* Supporting Files */,
+				ECFF0F2D1DC990BC00A976AE /* PrefixHeader.pch */,
 			);
 			path = G1KProject;
 			sourceTree = "<group>";
@@ -117,6 +138,10 @@
 		ECFF0EE81DC9864200A976AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECFF0EF91DC9864200A976AE /* Info.plist */,
+				ECFF0EF11DC9864200A976AE /* Main.storyboard */,
+				ECFF0EF41DC9864200A976AE /* Assets.xcassets */,
+				ECFF0EF61DC9864200A976AE /* LaunchScreen.storyboard */,
 				ECFF0EE91DC9864200A976AE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +163,95 @@
 				ECFF0F0F1DC9864200A976AE /* Info.plist */,
 			);
 			path = G1KProjectUITests;
+			sourceTree = "<group>";
+		};
+		ECFF0F1B1DC9866A00A976AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F1C1DC986A500A976AE /* G1KAppDelegate.h */,
+				ECFF0F1D1DC986A500A976AE /* G1KAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		ECFF0F1F1DC986E200A976AE /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F311DC9AA7200A976AE /* G1KHomeViewController.h */,
+				ECFF0F321DC9AA7200A976AE /* G1KHomeViewController.m */,
+				ECFF0F341DC9AA7E00A976AE /* G1KDicoverViewController.h */,
+				ECFF0F351DC9AA7E00A976AE /* G1KDicoverViewController.m */,
+				ECFF0F371DC9AA8900A976AE /* G1KMyViewController.h */,
+				ECFF0F381DC9AA8900A976AE /* G1KMyViewController.m */,
+				ECFF0F3A1DC9AA9100A976AE /* G1KThemViewController.h */,
+				ECFF0F3B1DC9AA9100A976AE /* G1KThemViewController.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		ECFF0F201DC986FE00A976AE /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F251DC987CE00A976AE /* BarView */,
+				ECFF0F241DC9876100A976AE /* Button */,
+				ECFF0F231DC9875500A976AE /* TabBarController */,
+			);
+			name = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		ECFF0F211DC9871900A976AE /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F401DC9C4EB00A976AE /* CustomTab */,
+				ECFF0F221DC9872B00A976AE /* CustomNav */,
+				ECFF0F201DC986FE00A976AE /* CustomTabbar */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		ECFF0F221DC9872B00A976AE /* CustomNav */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F3D1DC9AE1000A976AE /* G1KNavigationController.h */,
+				ECFF0F3E1DC9AE1000A976AE /* G1KNavigationController.m */,
+			);
+			name = CustomNav;
+			sourceTree = "<group>";
+		};
+		ECFF0F231DC9875500A976AE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F2E1DC99A5C00A976AE /* G1KTabBarController.h */,
+				ECFF0F2F1DC99A5C00A976AE /* G1KTabBarController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		ECFF0F241DC9876100A976AE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F291DC98C9500A976AE /* G1KTabButton.h */,
+				ECFF0F2A1DC98C9600A976AE /* G1KTabButton.m */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		ECFF0F251DC987CE00A976AE /* BarView */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F261DC987F300A976AE /* G1KTabBarView.h */,
+				ECFF0F271DC987F300A976AE /* G1KTabBarView.m */,
+			);
+			name = BarView;
+			sourceTree = "<group>";
+		};
+		ECFF0F401DC9C4EB00A976AE /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F411DC9C53E00A976AE /* G1KTopTabView.h */,
+				ECFF0F421DC9C53E00A976AE /* G1KTopTabView.m */,
+			);
+			name = CustomTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +316,7 @@
 		ECFF0EDD1DC9864200A976AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = G1K;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = SOBF;
 				TargetAttributes = {
@@ -276,9 +391,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFF0EF01DC9864200A976AE /* ViewController.m in Sources */,
-				ECFF0EED1DC9864200A976AE /* AppDelegate.m in Sources */,
+				ECFF0F391DC9AA8900A976AE /* G1KMyViewController.m in Sources */,
+				ECFF0F361DC9AA7E00A976AE /* G1KDicoverViewController.m in Sources */,
+				ECFF0F1E1DC986A500A976AE /* G1KAppDelegate.m in Sources */,
 				ECFF0EEA1DC9864200A976AE /* main.m in Sources */,
+				ECFF0F301DC99A5C00A976AE /* G1KTabBarController.m in Sources */,
+				ECFF0F331DC9AA7200A976AE /* G1KHomeViewController.m in Sources */,
+				ECFF0F281DC987F300A976AE /* G1KTabBarView.m in Sources */,
+				ECFF0F3F1DC9AE1000A976AE /* G1KNavigationController.m in Sources */,
+				ECFF0F431DC9C53E00A976AE /* G1KTopTabView.m in Sources */,
+				ECFF0F3C1DC9AA9100A976AE /* G1KThemViewController.m in Sources */,
+				ECFF0F2B1DC98C9600A976AE /* G1KTabButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +551,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/G1KProject/PrefixHeader.pch";
 				INFOPLIST_FILE = G1KProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +565,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/G1KProject/PrefixHeader.pch";
 				INFOPLIST_FILE = G1KProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
