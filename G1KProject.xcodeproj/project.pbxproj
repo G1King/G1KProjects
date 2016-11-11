@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7766E3F756947E3F5BA63FF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE538A6BC80B0B11A4FD995 /* libPods.a */; };
+		EC68578E1DD47F3800E4C870 /* G1KPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC68578D1DD47F3800E4C870 /* G1KPlayerViewController.xib */; };
+		ECBD15711DD55D7B005C7B78 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD156F1DD55D7B005C7B78 /* UIImage+ImageEffects.m */; };
+		ECCB70441DD2F052009DDC69 /* G1KMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB70431DD2F052009DDC69 /* G1KMusicViewController.m */; };
+		ECCB704A1DD2F14C009DDC69 /* G1KMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB70491DD2F14C009DDC69 /* G1KMusicModel.m */; };
+		ECCB70531DD2F1A2009DDC69 /* musicPaper.json in Resources */ = {isa = PBXBuildFile; fileRef = ECCB70521DD2F1A2009DDC69 /* musicPaper.json */; };
+		ECCB70591DD312F1009DDC69 /* G1KRotaionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB70581DD312F1009DDC69 /* G1KRotaionView.m */; };
+		ECCB705D1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB705C1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.m */; };
+		ECD9DB711DD41CE80029B282 /* G1KPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9DB6F1DD41CE80029B282 /* G1KPlayerViewController.m */; };
+		ECD9DB751DD421360029B282 /* G1KPlayerViewController+G1KExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9DB741DD421360029B282 /* G1KPlayerViewController+G1KExtension.m */; };
+		ECD9DB781DD423D80029B282 /* UIImage+G1KExstension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9DB771DD423D80029B282 /* UIImage+G1KExstension.m */; };
+		ECEF8EF81DCC5B1500B2BDAC /* G1KTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF8EF71DCC5B1500B2BDAC /* G1KTopView.m */; };
+		ECEF8EFB1DCC5DFF00B2BDAC /* G1KCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF8EFA1DCC5DFF00B2BDAC /* G1KCollectionViewCell.m */; };
+		ECFA2EAD1DD1740B0079BD3F /* UIView+G1KExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA2EAC1DD1740B0079BD3F /* UIView+G1KExtension.m */; };
 		ECFF0EEA1DC9864200A976AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0EE91DC9864200A976AE /* main.m */; };
 		ECFF0EF31DC9864200A976AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFF0EF11DC9864200A976AE /* Main.storyboard */; };
 		ECFF0EF51DC9864200A976AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFF0EF41DC9864200A976AE /* Assets.xcassets */; };
@@ -23,6 +37,7 @@
 		ECFF0F3C1DC9AA9100A976AE /* G1KThemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F3B1DC9AA9100A976AE /* G1KThemViewController.m */; };
 		ECFF0F3F1DC9AE1000A976AE /* G1KNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F3E1DC9AE1000A976AE /* G1KNavigationController.m */; };
 		ECFF0F431DC9C53E00A976AE /* G1KTopTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F421DC9C53E00A976AE /* G1KTopTabView.m */; };
+		ECFF0F501DC9EBAF00A976AE /* G1KPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFF0F4F1DC9EBAF00A976AE /* G1KPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +58,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08CBB6B90D0783F65ACBB926 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1464CBE238F892E1E9D9D738 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7DE538A6BC80B0B11A4FD995 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC68578D1DD47F3800E4C870 /* G1KPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = G1KPlayerViewController.xib; sourceTree = "<group>"; };
+		ECBD156E1DD55D7B005C7B78 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		ECBD156F1DD55D7B005C7B78 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		ECCB70421DD2F052009DDC69 /* G1KMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KMusicViewController.h; sourceTree = "<group>"; };
+		ECCB70431DD2F052009DDC69 /* G1KMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KMusicViewController.m; sourceTree = "<group>"; };
+		ECCB70481DD2F14C009DDC69 /* G1KMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KMusicModel.h; sourceTree = "<group>"; };
+		ECCB70491DD2F14C009DDC69 /* G1KMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KMusicModel.m; sourceTree = "<group>"; };
+		ECCB70521DD2F1A2009DDC69 /* musicPaper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = musicPaper.json; sourceTree = "<group>"; };
+		ECCB70571DD312F1009DDC69 /* G1KRotaionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KRotaionView.h; sourceTree = "<group>"; };
+		ECCB70581DD312F1009DDC69 /* G1KRotaionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KRotaionView.m; sourceTree = "<group>"; };
+		ECCB705B1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+G1KTimeChangeStr.h"; sourceTree = "<group>"; };
+		ECCB705C1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+G1KTimeChangeStr.m"; sourceTree = "<group>"; };
+		ECD9DB6E1DD41CE80029B282 /* G1KPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KPlayerViewController.h; sourceTree = "<group>"; };
+		ECD9DB6F1DD41CE80029B282 /* G1KPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KPlayerViewController.m; sourceTree = "<group>"; };
+		ECD9DB731DD421360029B282 /* G1KPlayerViewController+G1KExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "G1KPlayerViewController+G1KExtension.h"; sourceTree = "<group>"; };
+		ECD9DB741DD421360029B282 /* G1KPlayerViewController+G1KExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "G1KPlayerViewController+G1KExtension.m"; sourceTree = "<group>"; };
+		ECD9DB761DD423D80029B282 /* UIImage+G1KExstension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+G1KExstension.h"; sourceTree = "<group>"; };
+		ECD9DB771DD423D80029B282 /* UIImage+G1KExstension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+G1KExstension.m"; sourceTree = "<group>"; };
+		ECEF8EF61DCC5B1500B2BDAC /* G1KTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTopView.h; sourceTree = "<group>"; };
+		ECEF8EF71DCC5B1500B2BDAC /* G1KTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTopView.m; sourceTree = "<group>"; };
+		ECEF8EF91DCC5DFF00B2BDAC /* G1KCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KCollectionViewCell.h; sourceTree = "<group>"; };
+		ECEF8EFA1DCC5DFF00B2BDAC /* G1KCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KCollectionViewCell.m; sourceTree = "<group>"; };
+		ECFA2EAB1DD1740B0079BD3F /* UIView+G1KExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+G1KExtension.h"; sourceTree = "<group>"; };
+		ECFA2EAC1DD1740B0079BD3F /* UIView+G1KExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+G1KExtension.m"; sourceTree = "<group>"; };
 		ECFF0EE51DC9864200A976AE /* G1KProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G1KProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFF0EE91DC9864200A976AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECFF0EF21DC9864200A976AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +118,8 @@
 		ECFF0F3E1DC9AE1000A976AE /* G1KNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KNavigationController.m; sourceTree = "<group>"; };
 		ECFF0F411DC9C53E00A976AE /* G1KTopTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KTopTabView.h; sourceTree = "<group>"; };
 		ECFF0F421DC9C53E00A976AE /* G1KTopTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KTopTabView.m; sourceTree = "<group>"; };
+		ECFF0F4E1DC9EBAF00A976AE /* G1KPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KPageViewController.h; sourceTree = "<group>"; };
+		ECFF0F4F1DC9EBAF00A976AE /* G1KPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7766E3F756947E3F5BA63FF0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +148,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28BD0753875C8549AA7F84B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE538A6BC80B0B11A4FD995 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B59F9EF57DC24ED6DDE87AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08CBB6B90D0783F65ACBB926 /* Pods.debug.xcconfig */,
+				1464CBE238F892E1E9D9D738 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECCB70411DD2F01E009DDC69 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB70511DD2F18D009DDC69 /* Json */,
+				ECCB70471DD2F127009DDC69 /* Audio */,
+				ECCB70461DD2F111009DDC69 /* RotaionView */,
+				ECCB70451DD2F0F7009DDC69 /* Model */,
+				ECCB70421DD2F052009DDC69 /* G1KMusicViewController.h */,
+				ECCB70431DD2F052009DDC69 /* G1KMusicViewController.m */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		ECCB70451DD2F0F7009DDC69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB70481DD2F14C009DDC69 /* G1KMusicModel.h */,
+				ECCB70491DD2F14C009DDC69 /* G1KMusicModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ECCB70461DD2F111009DDC69 /* RotaionView */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB70571DD312F1009DDC69 /* G1KRotaionView.h */,
+				ECCB70581DD312F1009DDC69 /* G1KRotaionView.m */,
+			);
+			name = RotaionView;
+			sourceTree = "<group>";
+		};
+		ECCB70471DD2F127009DDC69 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9DB6E1DD41CE80029B282 /* G1KPlayerViewController.h */,
+				ECD9DB6F1DD41CE80029B282 /* G1KPlayerViewController.m */,
+				EC68578D1DD47F3800E4C870 /* G1KPlayerViewController.xib */,
+				ECD9DB731DD421360029B282 /* G1KPlayerViewController+G1KExtension.h */,
+				ECD9DB741DD421360029B282 /* G1KPlayerViewController+G1KExtension.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		ECCB70511DD2F18D009DDC69 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				ECCB70521DD2F1A2009DDC69 /* musicPaper.json */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		ECCB705A1DD32DF3009DDC69 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD156E1DD55D7B005C7B78 /* UIImage+ImageEffects.h */,
+				ECBD156F1DD55D7B005C7B78 /* UIImage+ImageEffects.m */,
+				ECCB705B1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.h */,
+				ECCB705C1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.m */,
+				ECD9DB761DD423D80029B282 /* UIImage+G1KExstension.h */,
+				ECD9DB771DD423D80029B282 /* UIImage+G1KExstension.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		ECFA2EA51DD1663A0079BD3F /* G1KRefresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = G1KRefresh;
+			sourceTree = "<group>";
+		};
+		ECFA2EA61DD1734C0079BD3F /* G1KView */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA2EAB1DD1740B0079BD3F /* UIView+G1KExtension.h */,
+				ECFA2EAC1DD1740B0079BD3F /* UIView+G1KExtension.m */,
+			);
+			name = G1KView;
+			sourceTree = "<group>";
+		};
 		ECFF0EDC1DC9864200A976AE = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +252,8 @@
 				ECFF0F011DC9864200A976AE /* G1KProjectTests */,
 				ECFF0F0C1DC9864200A976AE /* G1KProjectUITests */,
 				ECFF0EE61DC9864200A976AE /* Products */,
+				3B59F9EF57DC24ED6DDE87AC /* Pods */,
+				28BD0753875C8549AA7F84B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +270,8 @@
 		ECFF0EE71DC9864200A976AE /* G1KProject */ = {
 			isa = PBXGroup;
 			children = (
+				ECCB705A1DD32DF3009DDC69 /* Tools */,
+				ECCB70411DD2F01E009DDC69 /* Music */,
 				ECFF0F211DC9871900A976AE /* Custom */,
 				ECFF0F1F1DC986E200A976AE /* BaseClass */,
 				ECFF0F1B1DC9866A00A976AE /* AppDelegate */,
@@ -202,6 +348,9 @@
 		ECFF0F211DC9871900A976AE /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				ECFA2EA61DD1734C0079BD3F /* G1KView */,
+				ECFA2EA51DD1663A0079BD3F /* G1KRefresh */,
+				ECFF0F4D1DC9EB8E00A976AE /* G1KTabPage */,
 				ECFF0F401DC9C4EB00A976AE /* CustomTab */,
 				ECFF0F221DC9872B00A976AE /* CustomNav */,
 				ECFF0F201DC986FE00A976AE /* CustomTabbar */,
@@ -254,6 +403,19 @@
 			name = CustomTab;
 			sourceTree = "<group>";
 		};
+		ECFF0F4D1DC9EB8E00A976AE /* G1KTabPage */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF0F4E1DC9EBAF00A976AE /* G1KPageViewController.h */,
+				ECFF0F4F1DC9EBAF00A976AE /* G1KPageViewController.m */,
+				ECEF8EF61DCC5B1500B2BDAC /* G1KTopView.h */,
+				ECEF8EF71DCC5B1500B2BDAC /* G1KTopView.m */,
+				ECEF8EF91DCC5DFF00B2BDAC /* G1KCollectionViewCell.h */,
+				ECEF8EFA1DCC5DFF00B2BDAC /* G1KCollectionViewCell.m */,
+			);
+			name = G1KTabPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,9 +423,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECFF0F121DC9864200A976AE /* Build configuration list for PBXNativeTarget "G1KProject" */;
 			buildPhases = (
+				03230B3C323CCE67E062F1A7 /* Check Pods Manifest.lock */,
 				ECFF0EE11DC9864200A976AE /* Sources */,
 				ECFF0EE21DC9864200A976AE /* Frameworks */,
 				ECFF0EE31DC9864200A976AE /* Resources */,
+				AF028E384B790FC3CDDE9956 /* Embed Pods Frameworks */,
+				E681767651A1E91BB97DA804 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,7 +529,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCB70531DD2F1A2009DDC69 /* musicPaper.json in Resources */,
 				ECFF0EF81DC9864200A976AE /* LaunchScreen.storyboard in Resources */,
+				EC68578E1DD47F3800E4C870 /* G1KPlayerViewController.xib in Resources */,
 				ECFF0EF51DC9864200A976AE /* Assets.xcassets in Resources */,
 				ECFF0EF31DC9864200A976AE /* Main.storyboard in Resources */,
 			);
@@ -386,21 +553,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03230B3C323CCE67E062F1A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF028E384B790FC3CDDE9956 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E681767651A1E91BB97DA804 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECFF0EE11DC9864200A976AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD9DB711DD41CE80029B282 /* G1KPlayerViewController.m in Sources */,
+				ECD9DB751DD421360029B282 /* G1KPlayerViewController+G1KExtension.m in Sources */,
 				ECFF0F391DC9AA8900A976AE /* G1KMyViewController.m in Sources */,
 				ECFF0F361DC9AA7E00A976AE /* G1KDicoverViewController.m in Sources */,
 				ECFF0F1E1DC986A500A976AE /* G1KAppDelegate.m in Sources */,
+				ECCB70591DD312F1009DDC69 /* G1KRotaionView.m in Sources */,
 				ECFF0EEA1DC9864200A976AE /* main.m in Sources */,
 				ECFF0F301DC99A5C00A976AE /* G1KTabBarController.m in Sources */,
+				ECBD15711DD55D7B005C7B78 /* UIImage+ImageEffects.m in Sources */,
+				ECCB705D1DD32E19009DDC69 /* NSString+G1KTimeChangeStr.m in Sources */,
+				ECFF0F501DC9EBAF00A976AE /* G1KPageViewController.m in Sources */,
+				ECCB70441DD2F052009DDC69 /* G1KMusicViewController.m in Sources */,
+				ECD9DB781DD423D80029B282 /* UIImage+G1KExstension.m in Sources */,
 				ECFF0F331DC9AA7200A976AE /* G1KHomeViewController.m in Sources */,
+				ECFA2EAD1DD1740B0079BD3F /* UIView+G1KExtension.m in Sources */,
+				ECCB704A1DD2F14C009DDC69 /* G1KMusicModel.m in Sources */,
 				ECFF0F281DC987F300A976AE /* G1KTabBarView.m in Sources */,
+				ECEF8EF81DCC5B1500B2BDAC /* G1KTopView.m in Sources */,
 				ECFF0F3F1DC9AE1000A976AE /* G1KNavigationController.m in Sources */,
 				ECFF0F431DC9C53E00A976AE /* G1KTopTabView.m in Sources */,
 				ECFF0F3C1DC9AA9100A976AE /* G1KThemViewController.m in Sources */,
+				ECEF8EFB1DCC5DFF00B2BDAC /* G1KCollectionViewCell.m in Sources */,
 				ECFF0F2B1DC98C9600A976AE /* G1KTabButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +775,7 @@
 		};
 		ECFF0F131DC9864200A976AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CBB6B90D0783F65ACBB926 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
@@ -562,6 +790,7 @@
 		};
 		ECFF0F141DC9864200A976AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1464CBE238F892E1E9D9D738 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
@@ -643,6 +872,7 @@
 				ECFF0F141DC9864200A976AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECFF0F151DC9864200A976AE /* Build configuration list for PBXNativeTarget "G1KProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +881,7 @@
 				ECFF0F171DC9864200A976AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECFF0F181DC9864200A976AE /* Build configuration list for PBXNativeTarget "G1KProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +890,7 @@
 				ECFF0F1A1DC9864200A976AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

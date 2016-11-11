@@ -39,6 +39,6 @@
  tabbar 的背景颜色 如果不设置颜色  默认颜色 为白色
  */
 @property (nonatomic,strong) UIColor * color;
-@property (nonatomic,strong) G1KTabButton * tabBarButton;
+@property (nonatomic,weak) G1KTabButton * tabBarButton;
 @property (nonatomic,weak) id<G1KProtocol>delegate;
 @end

@@ -30,7 +30,7 @@
 -(void)addTabBarItem:(UITabBarItem *)tabBarItem{
     G1KTabButton * tabButton = [[G1KTabButton alloc]init];
     tabButton.item = tabBarItem;
-    NSLog(@"===%@",tabBarItem.title);
+//    NSLog(@"===%@",tabBarItem.title);
     //可以自己定制 字体颜色
 //    tabButton.titleColor
 //    tabButton.selectTitleColor =

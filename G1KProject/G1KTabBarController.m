@@ -89,7 +89,9 @@
     
     vc.title = title;
     vc.tabBarItem.title =title;
-    vc.tabBarItem.image =  [UIImage imageNamed:imageName];
+    
+    vc.tabBarItem.image =[UIImage imageNamed:imageName];
+    NSLog(@"%@",vc.tabBarItem);
     vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] ;
     [self.tabBarView addTabBarItem:vc.tabBarItem];
 }

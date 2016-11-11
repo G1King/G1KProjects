@@ -7,6 +7,7 @@
 //
 
 #import "G1KTopTabView.h"
+
 #define BUTTON_TAG 100
 @interface G1KTopTabView ()<UIScrollViewDelegate>
 @property (nonatomic,strong) UIScrollView * scrollview;
@@ -24,7 +25,7 @@
 }
 -(void)setUI{
     [self addSubview:self.scrollview];
-    NSLog(@"%ld===%zd",self.g1k_Array.count,self.titlesArr.count);
+//    NSLog(@"%ld===%zd",self.g1k_Array.count,self.titlesArr.count);
     CGFloat total;
     CGFloat index = 0;
     

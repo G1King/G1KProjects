@@ -8,14 +8,30 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
+#pragma mark - color size
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
-
 #define KCTabBackGround UIColorFromRGB(0xf0f1f3)
 #define SCREEN_WIDTH     [[UIScreen mainScreen] bounds].size.width
 #define SCREEN_HEIGHT    [[UIScreen mainScreen] bounds].size.height
 #define kC6 UIColorFromRGB(0x666666)
 #define kCHighLight UIColorFromRGB(0x03a9f4)
+#define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#pragma mark -
+#undef    X_SINGLETON_DEC
+#define X_SINGLETON_DEC( __class ) \
++ (__class *)sharedInstance;
+
+#undef    X_SINGLETON_DEF
+#define Weak(obj) __weak typeof(obj) weak##obj = obj;
+#pragma maek -- class
+#import "UIView+G1KExtension.h"
+#import "PureLayout.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "NSString+G1KTimeChangeStr.h"
 #endif /* PrefixHeader_pch */
